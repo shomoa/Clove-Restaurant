@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<title>Clove Rest</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+<style>
+body { background: #fafafa; font-family: Arial, sans-serif; margin:0; padding:0; }
+
+/* Header مع لوغو وعنوان بمظهر جميل */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(135deg, #FFE4B5, #FFDEAD);
+  padding: 20px 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  margin: 20px auto;
+  max-width: 1000px;
+}
+
+.header-logo img {
+  height: 100px;
+  width: auto;
+}
+
+.logo-text {
+  text-align: center;
+  font-family: 'Great Vibes', cursive;
+  font-size: 48px;
+  color: #8B4513;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+  flex-grow: 1;
+}
+
+/* تكبير الصور */
+.card-img-top { height: 300px; object-fit: cover; }
+.card { margin-bottom: 30px; }
+
+body { 
+  background: #8B4513;  /* نفس لون العنوان */
+  font-family: Arial, sans-serif; 
+  margin:0; 
+  padding:0; 
+}
+
+/* Header مع لوغو وعنوان */
+.header { 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  background: linear-gradient(135deg, #FFE4B5, #FFDEAD); 
+  padding: 20px 30px; 
+  border-radius: 15px; 
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1); 
+  margin: 20px auto; 
+  max-width: 1000px; 
+}
+
+.header-logo img { 
+  height: 100px; 
+  width: auto; 
+}
+
+.logo-text { 
+  text-align: center; 
+  font-family: 'Great Vibes', cursive; 
+  font-size: 48px; 
+  color: #8B4513; 
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.2); 
+  flex-grow: 1; 
+}
+
+/* الكروت */
+.card-img-top { 
+  height: 300px; 
+  object-fit: cover; 
+  border-radius: 10px; 
+}
+
+.card { 
+  margin-bottom: 30px; 
+  background: #FFF8DC;  /* خلفية فاتحة للكروت لتكون واضحة على البني */
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+</style>
+
+
+</head>
+<body>
+
+<div class="container">
+
+  <!-- Header -->
+  <div class="header">
+    <div class="logo-text">Clove Rest</div>
+    <div class="header-logo">
+      <img src="your-logo.jpg.jpg" alt="لوغو المطعم">
+    </div>
+  </div>
+
+  <!-- هنا تضيفين الكروت الخاصة بالأكلات -->
+  <div class="row row-cols-1 row-cols-md-2 g-4">
+
+    <div class="col">
+      <div class="card">
+        <img src="mandi.jpg" class="card-img-top" alt="مندي">
+        <div class="card-body">
+          <h5 class="card-title">مندي (Mandi)</h5>
+          <p class="card-text">طبق يمني مميز يُطهى على نار هادئة، يتكون من أرز ببهارات خاصة ولحم طري بنكهة المدخن.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+        <div class="card">
+          <img src="mo3ajenat.jpeg" class="card-img-top" alt="معجنات">
+          <div class="card-body">
+            <h5 class="card-title">معجنات</h5>
+            <p class="card-text">
+              تشكيلة شهية من المعجنات المحشوة بأنواع مختلفة مثل الجبنة، اللحم المفروم، السبانخ أو البطاطا، تُخبز حتى تصبح ذهبية ومقرمشة.
+            </p>
+          </div>
+        </div>
+      </div>
+      
+
+    <div class="col">
+      <div class="card">
+        <img src="dawali.jpeg" class="card-img-top" alt="دوالي">
+        <div class="card-body">
+          <h5 class="card-title">دوالي (Dawali)</h5>
+          <p class="card-text">ورق عنب محشو بالأرز والبهارات يُطبخ مع شرائح الليمون والزيت.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card">
+        <img src="frekeh.jpeg" class="card-img-top" alt="فريكة">
+        <div class="card-body">
+          <h5 class="card-title">فريكة</h5>
+          <p class="card-text">طبق شعبي يتكون من حبوب القمح الخضراء المحمصة مع بهارات ونكهات خاصة.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card">
+        <img src="fatteh.jpeg" class="card-img-top" alt="فتة">
+        <div class="card-body">
+          <h5 class="card-title">فتة</h5>
+          <p class="card-text">طبق مميز يتكون من طبقات خبز محمص، لحم أو دجاج، وصلصة طحينية وغنية بالنكهات.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card">
+        <img src="kebbeh.jpeg" class="card-img-top" alt="كبة">
+        <div class="card-body">
+          <h5 class="card-title">كبة</h5>
+          <p class="card-text">كبة باللحم والبرغل، تُشكل على شكل كرات أو أصابع وتُقلى أو تُخبز.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card">
+        <img src="lazania.jpeg" class="card-img-top" alt="لازانيا">
+        <div class="card-body">
+          <h5 class="card-title">لازانيا</h5>
+          <p class="card-text">طبق إيطالي متعدد الطبقات من المعكرونة، اللحم، الجبنة والصلصة.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card">
+        <img src="ma3karona salad.jpeg" class="card-img-top" alt="سلطة">
+        <div class="card-body">
+          <h5 class="card-title">سلطة</h5>
+          <p class="card-text">سلطة طازجة متنوعة بالخضار والبهارات، تقدم كطبق جانبي صحي.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card">
+        <img src="lazania.jpeg" class="card-img-top" alt="لازانيا">
+        <div class="card-body">
+          <h5 class="card-title">معكرونة</h5>
+          <p class="card-text">طبق معكرونة كلاسيكي مطبوخ مع صلصة طماطم أو كريمة، مع خضار أو لحم.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card">
+        <img src="maftoolresized.jpg" class="card-img-top" alt="مفتول">
+        <div class="card-body">
+          <h5 class="card-title">مفتول</h5>
+          <p class="card-text">طبق شعبي من البرغل أو السميد يقدم مع صلصة الطماطم واللحم أو الدجاج.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
